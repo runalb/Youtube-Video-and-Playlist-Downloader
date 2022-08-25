@@ -16,4 +16,4 @@ strm_no = int(input("Enter stream no: "))
 
 print(f' Downloading...:\n {ytv_streams[strm_no]} ')
 ytv_streams[strm_no].download()
-print(f'\n Download Completed...:\n {ytv.title} \n {ytv_streams[0]}')
+print(f'\n Download Completed...:\n {ytv.title} \n {ytv_streams[strm_no]}')
